@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+struct student
+{
+    char name[50];
+    int roll;
+    float marks;
+}s;
+int main() 
+{
+   //Your code goes here
+  cin.getline(s.name,50);
+  cin >> s.roll >> s.marks;
+  cout << "\nStudent Details";
+  cout << "\nName: " << s.name;
+  cout << "\nRoll: " << s.roll;
+  cout << "\nMarks: " << s.marks;
+}
